@@ -1,0 +1,21 @@
+.container__table {
+    margin-top: 20px;
+    overflow: scroll;
+    height: 400px;
+    color: #6a5d5d;
+    overflow-x: hidden;
+    margin-bottom: 25px;
+}
+
+.container__table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__table td {
+    padding: 0.5rem;
+}
+
+.container__table tr:nth-of-type(odd) {
+    background: #f3f2f8;
+}
